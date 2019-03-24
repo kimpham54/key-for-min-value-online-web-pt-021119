@@ -30,8 +30,6 @@ smallestkey = ""
     if value == smallest_value
       smallestkey = key
       puts "#{smalltestkey} is the smallest key"
-    else
-      nil
     end
   end
 
