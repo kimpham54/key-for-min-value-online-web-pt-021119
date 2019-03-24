@@ -25,7 +25,7 @@ end
 
 smallestkey = ""
 
-name_hash.each |key, value|
+name_hash.each do |key, value|
 if value == smallest_value
   smallestkey = key
 end
