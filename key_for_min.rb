@@ -10,11 +10,11 @@
 # # => "apple"
 
 def key_for_min_value(name_hash)
+smallest_value = 0
+smallestkey = ""
 if name_hash  = {}
   nil
-end
-  smallest_value = 0
-
+else
   name_hash.collect do|key, value|
     smallest_value = value
     puts "#{smallest_value} is an array value"
@@ -26,8 +26,6 @@ end
   end
 end
 
-smallestkey = ""
-
   name_hash.each do |key, value|
     if value == smallest_value
       smallestkey = key
@@ -35,4 +33,5 @@ smallestkey = ""
   end
 
 smallestkey
+end
 end
