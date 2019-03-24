@@ -21,6 +21,8 @@ def key_for_min_value(name_hash)
     if value < smallest_value
     smallest_value = value
     puts "#{smallest_value} is the smallest value"
+  else
+    nil
   end
 end
 
