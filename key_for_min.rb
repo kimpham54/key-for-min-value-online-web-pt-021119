@@ -10,7 +10,7 @@
 # # => "apple"
 
 def key_for_min_value(name_hash)
-if name_hash.empty?  = true
+if name_hash.empty?  == true
   nil
 else
   smallest_value = 0
