@@ -30,5 +30,5 @@ smallestkey = ""
       smallestkey = key
     end
   end
-
+smallestkey
 end
