@@ -10,11 +10,14 @@ key_for_min_value(veggies)
 # => "apple"
 
 def key_for_min_value(name_hash)
-  smallest_value = nil
-  name_hash.collect do |key, value|
-    if value <= smallest_value
+  smallest_value = 0
+
+  name_hash.collect do|key, value|
     smallest_value = value
-  else
+  end
+  
+  name_hash.collect do |key, value|
+    if value < smallest_value
     smallest_value = value
   end
 end
