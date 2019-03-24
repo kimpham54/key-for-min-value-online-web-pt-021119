@@ -22,9 +22,3 @@ def key_for_min_value(name_hash)
     smallest_value = value
   end
 end
-
-name_hash.each |key, value|
-if value == smallest_value
-  key
-end
-end
